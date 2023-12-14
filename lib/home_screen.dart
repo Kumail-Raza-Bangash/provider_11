@@ -5,6 +5,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    // ignore: avoid_print
+    print("build");
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Flutter Provider"),
+      ),
+      body: const Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
